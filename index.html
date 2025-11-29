@@ -1154,7 +1154,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
           <p class="disclaimer-text">
-            <strong>IMPORTANT SECURITY NOTICE:</strong> Not affılıated wıth MetaMask or Consensys. This is an independent community forum. Never share your seed phrase with anyone. For official downloads, type <strong>metamask.io</strong> directly in your browser.
+            <strong>IMPORTANT SECURITY NOTICE:</strong> Not affiliated with MetaMask or ConsenSys. This is an independent community forum. Never share your seed phrase with anyone. For official downloads, type <strong>metamask.io</strong> directly in your browser.
           </p>
         </div>
         <article class="forum-post" itemscope itemtype="https://schema.org/Article">
@@ -1654,7 +1654,7 @@
           <a href="#" onclick="openModal('contactModal'); return false;">Contact</a>
         </nav>
         <div class="footer-bottom">
-          <p>&copy; 2025 MetaRapid. All rights reserved. Independent community site; not affiliated with MetaMask. Never share your seed phrase with anyone.</p>
+          <p>&copy; 2025 MetaRapid. All rights reserved. Independent community site. Not affiliated with MetaMask or ConsenSys. Never share your seed phrase with anyone.</p>
         </div>
       </div>
     </footer>
@@ -1666,7 +1666,7 @@
           <button class="close-modal" onclick="closeModal('loginModal')" aria-label="Close login dialog">&times;</button>
         </div>
         <div class="modal-body">
-          <form action="/api/login" method="POST" aria-label="Login form">
+          <form action="/login" method="POST" aria-label="Login form">
             <div class="form-group">
               <label for="login-email">Email Address</label>
               <input type="email" id="login-email" name="email" autocomplete="email" required aria-required="true">
@@ -1689,7 +1689,7 @@
         </div>
         <div class="modal-body">
           <p style="margin-bottom: 1.5rem;">MetaRapid is an exclusive, invitation-only community. To join, you must have a valid invitation code from an existing member.</p>
-          <form action="/api/register" method="POST" aria-label="Registration form">
+          <form action="/register" method="POST" aria-label="Registration form">
             <div class="form-group">
               <label for="invite-code">Invitation Code</label>
               <input type="text" id="invite-code" name="invite_code" placeholder="Enter your invite code" autocomplete="off" required aria-required="true">
